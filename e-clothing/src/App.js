@@ -1,11 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
+import './App.css'
 import Homepage from './Pages/Homepage.component/HomePage'
+import ShopPage from './Pages/shop/shop.compoenent'
 
-const hatPage = () => {
-  return <div><h1>Hello</h1></div>
-}
 
 function App() {
   return (
@@ -13,7 +11,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Homepage} />
-          <Route component={hatPage} />
+          <Route path='/shop' component={ShopPage} />
         </Switch>
       </Router>
     </div >
