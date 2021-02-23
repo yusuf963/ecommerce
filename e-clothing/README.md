@@ -1,3 +1,8 @@
+this project is to show case my skills with Reactjs, redux and backend such as Firebase an dAuthintiation, an dpayment as well am main foucs on UI design and creating a friendly user experience
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
